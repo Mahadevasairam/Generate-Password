@@ -14,7 +14,7 @@ generateBtn.addEventListener("click", function () {
         generate(num)
     }
     else if (num === 0) {
-        warningTxt.textContent = "Input must not be Empty"
+        warningTxt.textContent = "Input must not be Empty or Zero"
     }
     else {
         warningTxt.textContent = "Enter a valid number not a string"
